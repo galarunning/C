@@ -186,7 +186,7 @@ void deleteNodeFromPosition(node* head, int position)   //nth position from the 
     }
     else
     {
-        for(i=0; i<position; i++)
+        for(i=1; i<position; i++)
         {
             tmp = tmp->next;
             if(tmp->next!=NULL)
@@ -203,8 +203,10 @@ void deleteNodeFromPosition(node* head, int position)   //nth position from the 
             {
                 printf("I cannot delete somehting that is beyond the end of the list\n");
                 return;
-            }
-        }
+            } 
+        }   
+        
+        
     }
 
 }
@@ -213,7 +215,6 @@ node* deleteBookFromDb(node *head)
 {
 
     //Iterate through the list 
-
     //Find the book position we want to delete
 
     node* tmp = head;
