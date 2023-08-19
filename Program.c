@@ -10,8 +10,8 @@ LRESULT CALLBACK MainWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lPar
     switch (uMsg) {
         case WM_CREATE:
             // Create buttons
-            CreateWindow("BUTTON", "Open Window 1", WS_VISIBLE | WS_CHILD, 50, 50, 150, 30, hwnd, (HMENU)1, NULL, NULL);
-            CreateWindow("BUTTON", "Open Window 2", WS_VISIBLE | WS_CHILD, 50, 100, 150, 30, hwnd, (HMENU)2, NULL, NULL);
+            CreateWindow("BUTTON", "Open Window 1", WS_VISIBLE | WS_CHILD, 50, 50, 130, 30, hwnd, (HMENU)1, NULL, NULL);
+            CreateWindow("BUTTON", "Open Window 2", WS_VISIBLE | WS_CHILD, 50, 100, 130, 30, hwnd, (HMENU)2, NULL, NULL);
             return 0;
         
         case WM_COMMAND:

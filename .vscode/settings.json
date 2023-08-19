@@ -3,7 +3,11 @@
     "files.associations": {
         "stierr.h": "c",
         "stdlib.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "windows.h": "c",
+        "sdkddkver.h": "c",
+        "winapifamily.h": "c",
+        "stdio.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
