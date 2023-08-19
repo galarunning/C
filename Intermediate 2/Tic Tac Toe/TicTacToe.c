@@ -122,6 +122,8 @@ int main()
     free(playCountPtr);
     free(player1Ptr);
     free(player2Ptr); 
+
+    return 0;
 }
 
 void initialiseBoard(void)
